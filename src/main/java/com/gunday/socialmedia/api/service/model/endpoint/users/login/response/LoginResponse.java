@@ -8,5 +8,6 @@ import lombok.Getter;
 @Getter
 public class LoginResponse {
 
-    private LoginResponseType loginResponseType;
+    private LoginResponseType type;
 }
+

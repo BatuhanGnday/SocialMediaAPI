@@ -1,4 +1,4 @@
-package com.gunday.twitterdashboard;
+package com.gunday.socialmedia;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.gunday</groupId>
-    <artifactId>twitterdashboard</artifactId>
+    <artifactId>SocialMediaAPI</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>twitter-dashboard</name>
-    <description>An application that allows you to better manage your twitter profile</description>
+    <name>social-media-api</name>
+    <description>RestAPI which is provide the communication between the front-end and database.</description>
 
     <properties>
         <java.version>1.8</java.version>

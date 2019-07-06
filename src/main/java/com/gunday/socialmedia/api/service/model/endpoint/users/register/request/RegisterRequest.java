@@ -7,8 +7,6 @@ import javax.validation.constraints.NotNull;
 @NoArgsConstructor
 @Getter
 public class RegisterRequest {
-    //<editor-fold desc="Fields">
-
     @NotNull
     private String email;
 
@@ -20,6 +18,4 @@ public class RegisterRequest {
 
     @NotNull
     private String fullName;
-
-    //</editor-fold>
 }

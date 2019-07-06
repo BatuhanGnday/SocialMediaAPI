@@ -20,6 +20,9 @@ public interface IUserDao {
     @SqlQuery("select count(*) from user_accounts where username = :username")
     boolean isExistByUsername(@Bind("username") String username);
 
+    @SqlQuery("select count(*) from user_accounts where id = :id")
+    boolean isExistById(@Bind("id") int id);
+
     @SqlQuery("select count(*) from user_accounts where username = :username or email = :email")
     boolean isExistsByUsernameOrEmail(@Bind("username") String username, @Bind("email") String email);
 

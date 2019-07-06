@@ -1,5 +1,5 @@
 package com.gunday.socialmedia.api.service.model.endpoint.posts.share.response;
 
 public enum ShareResponseType {
-    SUCCESS,FAILED
+    SUCCESS, OUT_OF_LIMIT, INVALID_AUTHOR
 }

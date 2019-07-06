@@ -1,5 +1,6 @@
 package com.gunday.socialmedia.database.models;
 
+import com.gunday.socialmedia.api.service.UserService;
 import lombok.Data;
 import lombok.NonNull;
 import org.skife.jdbi.v2.StatementContext;

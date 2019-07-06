@@ -1,4 +1,5 @@
 package com.gunday.socialmedia.api.service.model.endpoint.messages.receive.response;
 
-public class MessageReceiveResponse {
+public enum ReceiveResponseType {
+    SUCCESS, FAILED
 }

@@ -1,4 +1,4 @@
-package com.gunday.socialmedia.api.service.model.endpoint.posts.share.request;
+package com.gunday.socialmedia.api.service.model.endpoint.messages.receive.request;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -7,10 +7,9 @@ import javax.validation.constraints.NotNull;
 
 @NoArgsConstructor
 @Getter
-public class ShareRequest {
-
+public class ReceiveRequest {
     @NotNull
-    private String content;
+    private int senderId;
 
     @NotNull
     private int authorId;

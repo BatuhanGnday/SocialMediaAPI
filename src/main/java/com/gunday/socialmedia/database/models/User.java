@@ -36,7 +36,7 @@ public class User {
             String username = resultSet.getString("username");
             String password = resultSet.getString("password");
             String email = resultSet.getString("email");
-            Timestamp creationDate = resultSet.getTimestamp("creationDate");
+            Timestamp creationDate = resultSet.getTimestamp("creation_date");
             User user = new User(fullName, username, password, email);
             user.setId(id);
             user.setCreationDate(creationDate);

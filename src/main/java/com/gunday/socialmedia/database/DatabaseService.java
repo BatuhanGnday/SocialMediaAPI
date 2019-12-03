@@ -23,7 +23,7 @@ public class DatabaseService {
 
     @Bean
     private DBI dbi() {
-        return new DBI("jdbc:mysql://localhost:3306/twitter_dashboard?useSSL=false", "root", "rootroot");
+        return new DBI("jdbc:mysql://localhost:8080/social_media_api?useSSL=false", "root", "");
     }
 
     @PostConstruct
